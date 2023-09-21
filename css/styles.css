@@ -19,7 +19,8 @@ a {
 
 .title-logo {
   color:#4D5AE5;
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
@@ -31,12 +32,14 @@ a {
 }
 
 .menu-list {
+
 }
 .menu-item {
 }
 
 .menu-link {
   color: #2E2F42;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -62,6 +65,7 @@ a {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  font-style: normal
 }
 
 .contact-link:hover{
@@ -86,7 +90,9 @@ a {
 
 .main-page-btn {
   color: #FFF;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
+  font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
   border-radius: 4px;
@@ -95,16 +101,18 @@ a {
 }
 
 .main-page-btn:hover { 
-  color:  #404BBF;
+  color: #404BBF;
 }
 .main-page-btn:focus {
-  color: #404BBF
+  color: #404BBF;
 }
 
 .page-skils {
   background: #FFF;
 }
+
 .page-skils-title {
+  font-weight: 500;
 }
 .page-skils-list {
 }
@@ -132,9 +140,11 @@ a {
 .page-team-title {
   color: #2E2F42;
   font-family: "Roboto";
+  text-align: center;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 
 .page-team-list {
@@ -147,6 +157,7 @@ a {
 .page-team-name {
   color: #2E2F42;
   font-family: "Roboto";
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -162,6 +173,7 @@ a {
 
 .portfolio {
   background: #FFF;
+  text-align: center;
 }
 
 .portfolio-title {
@@ -171,6 +183,7 @@ a {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 
 .portfolio-list {
@@ -181,6 +194,7 @@ a {
 .portfolio-item-title {
   color: #2E2F42;
   font-family: "Roboto";
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -200,7 +214,8 @@ a {
 
 .footer-logo-part{
   color: #F4F4FD;
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
