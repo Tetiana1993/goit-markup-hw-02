@@ -65,7 +65,7 @@ a {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  font-style: normal
+  font-style: normal;
 }
 
 .contact-link:hover{
@@ -101,10 +101,10 @@ a {
 }
 
 .main-page-btn:hover { 
-  color: #404BBF;
+  background-color: #404BBF;
 }
 .main-page-btn:focus {
-  color: #404BBF;
+  background-color: #404BBF;
 }
 
 .page-skils {
@@ -112,7 +112,6 @@ a {
 }
 
 .page-skils-title {
-  font-weight: 500;
 }
 .page-skils-list {
 }
@@ -121,6 +120,7 @@ a {
 
 .skils-item-title {
   color: #2E2F42;
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
